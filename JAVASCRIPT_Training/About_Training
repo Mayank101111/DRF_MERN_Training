@@ -1,0 +1,20 @@
+# JavaScript Training
+
+This folder contains all the **JavaScript materials and exercises** covered during the training at **Dr. Reddy’s Foundation (DRF)**.  
+In this training, JavaScript was taught **in complete depth**, covering both fundamentals and advanced topics to build a strong programming foundation.
+
+## 🔹 Topics Covered
+- JavaScript Syntax & Variables  
+- Data Types and Operators  
+- Conditional Statements & Loops  
+- Functions (Regular & Arrow Functions)  
+- Arrays & Objects  
+- DOM Manipulation  
+- Events & Event Handling  
+- ES6+ Features (let/const, template literals, spread/rest, destructuring)  
+- Callbacks, Promises, and Async/Await  
+- Error Handling & Debugging  
+
+## 🎯 Objective
+To gain an **in-depth understanding of JavaScript**, strengthen problem-solving skills,  
+and build the logical base required for frontend (React) and backend (Node.js) development in the **MERN stack**.
