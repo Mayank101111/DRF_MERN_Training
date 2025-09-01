@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    height: 650px;
+    width: 500px;
+    background-color: rgb(40, 217, 28);
+    margin: 0 auto;
+    display: flex;
+    /* this is for align item in x direction(horizontal) i.e main axis */
+    justify-content: center;
+
+    /* this is for align item in y direction(vertical) i.e cross axis */
+    align-items: center;
+
+    /* give the gap b/w row and column of items */
+    gap: 10px;
+
+    /* managing the gap b/w the two rows and what ever gap you set that gap will apply */
+    align-content: center;
+
+    /*  if items reach the width of parent that time item start from the new line */
+    flex-wrap: wrap;
+}
+
+.child {
+    height: 100px;
+    width: 200px;
+    background-color: rgb(231, 0, 173);
+    border: 3px solid black;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    align-content: center;
+
+}

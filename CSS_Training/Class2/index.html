@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .head{
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            background-color: black;
+            position: relative;
+            z-index: -1;
+        }
+        .lefteye{
+            height: 20px;
+            width: 40px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 200px;
+            position: absolute;
+            z-index: 1;
+            top: 60px;
+            left: 40px;
+
+        }
+        .righteye{
+            height: 20px;
+            width: 40px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 200px;
+            position: absolute;
+            right: 55px;
+            top: 60px;
+        }
+          .lefteyeball{
+            height: 10px;
+            width: 10px;
+            background-color: rgb(0, 0, 0);
+            border-radius: 200px;
+            position: relative;
+            z-index: 1;
+            top: 6px;
+            left: 15px;
+
+        }
+         .righteyeball{
+            height: 10px;
+            width: 10px;
+            background-color: rgb(0, 0, 0);
+            border-radius: 200px;
+            position: relative;
+            z-index: 1;
+            top: 6px;
+            left: 15px;
+        }
+        
+    </style>
+</head> 
+<body>
+    <div class="head">
+        <div class="lefteye"><div class="lefteyeball"></div>
+        </div>
+        <div class="righteye"><div class="righteyeball"></div>
+        </div>
+    </div>
+</body>
+</html>
