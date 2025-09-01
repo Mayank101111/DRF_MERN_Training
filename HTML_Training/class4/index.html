@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class 4 of html</title>
+    <!-- internal css always write inside head tag by using style tag -->
+    <style>
+        /* universal selector */
+        /* * {
+            background-color: black;
+        } */
+
+        /* tag selector */
+        /* h2 {
+            background-color: yellow;
+            font-size: 20px;
+            color: rgb(125, 4, 4);
+        }
+
+        div {
+            color: aqua;
+        } */
+
+        /* h3 {
+            background-color: black;
+            color: white;
+        }
+
+        h3 {
+            background-color: rgb(16, 222, 27);
+            color: rgb(255, 4, 4);
+            font-size: 400px;
+            font-style: italic;
+        } */
+
+        h3 {
+            background-color: black;
+            color: rgb(255, 4, 4);
+            font-size: 40px;
+        }
+
+        /* apply css using id selector */
+        #paragraph1 {
+            font-size: 45px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: red;
+        }
+
+        /* apply css using class selector */
+        .para1 {
+            font-size: 45px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: rgba(3, 11, 123, 0.348);
+        }
+    </style>
+    <!-- adding external css in html file via link tag -->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <!-- block element -->
+    <!-- inline CSS aap starting tag ke andar dete hai style attribute ka use karke -->
+    <h1 style="background: green;  font-size: 45px;">this is heading</h1>
+    <h2>head2</h2>
+    <!-- <h3 style="background-color: red; color: rgb(8, 255, 185);">this is heading number 3</h3> -->
+    <h3>this is a heading h3 </h3>
+    <!-- <h4>this is heading number 4</h4>
+    <h5>this is heading 5</h5>
+    <h6>this is heading number 3</h6> -->
+   <div class="para1">This is div using class</div>
+    <p id="paragraph1" class="para1">this is paragraph</p>
+    <div> This is a div
+        <p>Para1 in div</p>
+        <h2>Para1 in div</h2>
+    </div>
+    <div style="display:inline; background-color: blue; height: 100px; width: 100px;">
+        123
+    </div>
+    <!-- <mark>done done </mark> -->
+    <!-- inline block element -->
+    <img src="./one.png" alt="this is image ">
+    <video src="./MongoDBVideo.mp4" width="300px"></video>
+
+    <!-- inline element  -->
+    <span style="display: inline-block; background-color: yellow;height: 100px; width: 100px;">this is span</span>
+    <a href="https://www.shaadi.com/join-now?ptnr=sribrnext02&aff_url_param=g&gad_source=1&gad_campaignid=19643314746&gbraid=0AAAAAD-UhHfeYD4BYQPePrxd-3UG1_DZr&gclid=EAIaIQobChMIoaGNivjwjgMVYKNmAh0eiRUSEAAYASAAEgKRIvD_BwE" target="_blank">google</a>
+    <form>
+        <fieldset>
+            <legend>user Info</legend>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="enter your name">
+            <br>
+            <br>
+            <label for="lname">LastName</label>
+            <input type="text" id="lname" placeholder="enter your last name" value="Kumar">
+            <br>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="enter your email" minlength="8" required>
+            <br>
+            <br>
+            <label for="pass">Password</label>
+            <input type="password" id="pass" minlength="8" maxlength="16">
+            <br>
+            <br>
+            <label for="dob">DOB</label>
+            <input type="date" id="dob" min="2025/08/01">
+
+            <br>
+            <p>select your skills</p>
+            <label for="java">java</label>
+            <input type="checkbox" id="java" name="skills" value="java">
+            <label for="C++">C++</label>
+            <input type="checkbox" id="C++" name="skills" value="C++">
+            <label for="c">C</label>
+            <input type="checkbox" id="c" name="skills" value="c">
+
+            <p>select your Gender</p>
+            <label for="male">male</label>
+            <input type="radio" id="male" name="gender" value="male" checked>
+            <label for="female">female</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="others">others</label>
+            <input type="radio" id="others" name="gender" value="others">
+
+            <br><br>
+            <select>
+                <option value="car1">car1</option>
+                <option value="car2">car2</option>
+                <option value="car3">car3</option>
+                <option value="car4" selected>car4</option>
+            </select>
+            <!-- <datalist>
+                <option value="car1">car1</option>
+                <option value="car2">car2</option>
+                <option value="car3">car3</option>
+                <option value="car4" selected>car4</option>
+            </datalist> -->
+
+
+            <br>
+            <textarea name="info" id="info" rows="10">Enter Your Query </textarea>
+            <br>
+            <input type="submit"><br>
+            <input type="reset">
+        </fieldset>
+    </form>
+    <button>CLCIK ME</button>
+    <h1>Normal Table</h1>
+    <table border="1">
+        <tr>
+            <th>sid</th>
+            <th>sname</th>
+            <th>sage</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Mohan</td>
+            <td>101</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>RMohan</td>
+            <td>101</td>
+        </tr>
+
+    </table>
+    <br>
+    <h1>
+        Advanced Table
+    </h1>
+
+    <table border="1">
+        <tr>
+            <th>sid</th>
+            <th>sname</th>
+            <th>sage</th>
+        </tr>
+        <tr>
+            <td rowspan="">1</td>
+            <td>Mohan</td>
+            <td>101</td>
+        </tr>
+        <tr>
+            <!-- <td>2</td> -->
+            <td>RMohan</td>
+            <td>102</td>
+        </tr>
+
+    </table>
+
+    <h1>List in html</h1>
+    <ul>
+        <li>Apple</li>
+        <li>Cake</li>
+        <li>Code</li>
+    </ul>
+    <ol>
+        <li>Apple</li>
+        <li>Cake</li>
+        <li>Code</li>
+    </ol>
+    <dl>
+        <b>Select your data </b>
+        <dt>info
+        <dd>Try</dd>
+        </dt>
+    </dl>
+
+
+    <!-- Advance Tag in html -->
+    <abbr title="namsate">hover me</abbr>
+    <p>x <sub>2</sub>+ y <sub>2</sub></p>
+    <p>x <sup>2</sup>+ y <sup>2</sup></p>
+    <iframe src="https://www.linkedin.com/in/anshulgangrade15/?originalSubdomain=in" frameborder="0"></iframe>
+    <pre>i am done
+              i am not done
+    </pre>
+    <marquee behavior="" direction="return this">Ghumo aap</marquee>
+
+    <details>
+        Its a kind of Ngo which provide skill development program to youth and Experience.
+        <summary>
+            What DRF Does?
+        </summary>
+    </details>
+
+    <!-- Entity -->
+    <p>This is the for print the symbol in htmk &lt; &gt; &gtdot; &nbsp;</p>
+
+</body>
+
+</html>
