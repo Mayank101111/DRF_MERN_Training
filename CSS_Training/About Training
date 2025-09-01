@@ -1,24 +1,24 @@
-This folder contains all the CSS materials and practice files covered during the training at Dr. Reddy’s Foundation (DRF).
-The training sessions focus on building strong fundamentals of Cascading Style Sheets (CSS), ensuring you can design clean, structured, and responsive web pages.
+# CSS Training
 
-🔹 Topics Covered
+This folder contains all the **CSS materials and practice files** covered during the training at **Dr. Reddy’s Foundation (DRF)**.  
+The training sessions focus on building strong fundamentals of **Cascading Style Sheets (CSS)**, ensuring you can design clean, structured, and responsive web pages.
 
-CSS Syntax & Selectors
+## 🔹 Topics Covered
+- CSS Syntax & Selectors
+- Colors, Backgrounds, and Borders
+- Box Model (Margin, Padding, Border)
+- Typography (Fonts, Text Styling)
+- Layout Techniques (Flexbox, Grid, Positioning)
+- Pseudo-classes and Pseudo-elements
+- CSS Transitions & Animations
+- Responsive Web Design (Media Queries)
 
-Colors, Backgrounds, and Borders
+## 🛠 Practice Work
+As part of practice, the following **real-world homepage designs** were created:
+- **Redbus Homepage Clone**
+- **W3Schools Homepage Design**
+- **Skillfy Homepage Layout**
 
-Box Model (Margin, Padding, Border)
-
-Typography (Fonts, Text Styling)
-
-Layout Techniques (Flexbox, Positioning)
-
-Pseudo-classes and Pseudo-elements
-
-CSS Transitions & Animations
-
-Responsive Web Design (Media Queries)
-
-🎯 Objective
-
-To gain a complete understanding of how CSS works in styling and designing webpages, and to prepare for advanced frontend development with React in the MERN stack.
+## 🎯 Objective
+To gain a complete understanding of how CSS works in styling and designing webpages,  
+and to prepare for advanced frontend development with **React** in the MERN stack.
